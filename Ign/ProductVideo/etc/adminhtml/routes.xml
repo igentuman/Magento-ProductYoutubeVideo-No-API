@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<!--
+  ~ author: Siarhei Astapchyk
+  -->
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="admin">
+        <route id="productvideo" frontName="productvideo">
+            <module before="Magento_Backend" name="Ign_ProductVideo"/>
+        </route>
+    </router>
+</config>
